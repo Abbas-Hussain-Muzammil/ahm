@@ -368,17 +368,11 @@ footer{
       .hero img {
             height: 17rem;
             width: 17rem;
-
             margin-top: 4rem;
-           
-
+        
         }
 
-  
-    
       .bio {
-       
-
         margin-top: 1rem;
         padding: 1rem 3.5rem;
       }
@@ -444,12 +438,12 @@ footer{
             cursor: pointer;
         }
        
-           .up-arrow{
-              
-            width: 2rem;
-            height: 2rem;
-              
+          
+       .scroll-up{
+           
+          display:none;
         }
+
    
    
 
