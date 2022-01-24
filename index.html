@@ -60,8 +60,8 @@
         <li><a href="#contact" class = "nav-link">Contact</a></li>
      </ul>
      <ul class="navbar-nav ml-auto" >
-     <img src="assets/icons/moon.png"
-      alt="Dark Mode"
+     <img src="assets/icons/sun--v2.gif"
+      alt="Light Mode"
       id="icon">
 
      </ul>
@@ -215,12 +215,12 @@
     <script>
         var icon = document.getElementById("icon");
         icon.onclick = function(){
-            document.body.classList.toggle("dark-theme");
-            if(document.body.classList.contains("dark-theme")){
-                icon.src = "assets/icons/sun--v2.gif";
+            document.body.classList.toggle("light-theme");
+            if(document.body.classList.contains("light-theme")){
+                icon.src = "assets/icons/moon.png";
             }
             else{
-                icon.src = "assets/icons/moon.png";
+                icon.src = "assets/icons/sun--v2.gif";
             }
         }
     </script>
