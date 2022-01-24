@@ -443,6 +443,15 @@ footer{
             width: 30px;
             cursor: pointer;
         }
+       
+           .up-arrow{
+              
+            width: 2rem;
+            height: 2rem;
+              
+        }
+   
+   
 
 
 }
